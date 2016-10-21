@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="120dp"
+    android:gravity="center"
+    android:background="@drawable/dialog_background"
+    android:layout_height="120dp">
+
+    <com.mph.library.progress.ProgressWheel
+        android:id="@+id/progressWheel"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        wheel:matProg_progressIndeterminate="true"
+        wheel:matProg_linearProgress="true"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拼命加载中..."
+        android:textColor="#595959"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>
