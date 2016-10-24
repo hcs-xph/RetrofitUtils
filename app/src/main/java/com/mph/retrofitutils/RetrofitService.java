@@ -29,7 +29,7 @@ import rx.Observable;
 public interface RetrofitService {
 
     //测试接口
-    public static final String BASE_URL = "http://192.168.1.232:9190/api/";
+    public static final String BASE_URL = "接口地址";
 
     @FormUrlEncoded
     @POST("diseaseDBapi/getDisease")
