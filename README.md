@@ -65,3 +65,5 @@ RetrofitUtils.getInstance().doHttp(new DiseaseDetailPost(new ProgressSubscriber<
 ```
 这里就演示这个例子了，更多使用方法可以直接看demo。
 <br/>最后非常感谢[RxJava 与 Retrofit 结合的最佳实践](https://gank.io/post/56e80c2c677659311bed9841)和[Retrofit2文件上传下载及其进度显示](http://blog.csdn.net/huyongl1989/article/details/52619236)
+## **About Me**
+[http://ivast.cn](http://ivast.cn)
